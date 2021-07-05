@@ -8,6 +8,31 @@ body{
 span {
     color: orangered;
 }
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+    color: #666;
+}
+h6 {
+    font-size: 16px;
+    color: #666;
+}
+p {
+    font-size: 20px;
+    color: #666;
+    padding-bottom: 70px;
+}
+#paragraph p {
+    color: #000000;
+}
+strong {
+    font-weight: 900;
+    font-size: 50px;
+    color: #000000;
+}
+/*-- header style----*/
 header {
     top: 0;
     right: 0;
@@ -21,10 +46,10 @@ header a {
     text-decoration: none;
     color : #666;
 }
-.logo {
+#logo {
     font-size: 40px;
 }
-.logo span {
+#logo span {
     font-weight: 900;
 }
 .navbar ul {
@@ -43,3 +68,72 @@ header a {
 .navbar ul li a:hover {
     color: orangered;
 }
+
+/*--- home section style---*/
+.flex-container {
+    display: flex;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+.half-width {
+    width: 45%;
+    justify-content: center;
+    padding: 5%;
+}
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+    padding: 15px 40px;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 50px;
+}
+.link-btn:hover {
+    background-image: linear-gradient(to right, #f7b733, #fc4a1a);
+}
+
+/*--About section style*/
+.about-bg {
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/*--Recipes section style--*/
+
+.text-area {
+    text-align: center;
+    padding: 0 23%;
+}
+.img_text-area {
+    display: flex;
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.img-text {
+    width: 25%;
+    box-shadow: 10px 10px 40px gray;
+    margin: 3%;
+    border-radius: 50px;
+    padding: 24px 42px 0px 22px;
+}
+.img-text img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.count {
+    display: flex;
+    margin: 100px 10% 100px 14%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 30px;
+    padding: 20px 250px;
+}
+.count h6 {
+    text-align: center;
+}
+
