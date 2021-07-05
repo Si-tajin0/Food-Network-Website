@@ -137,3 +137,17 @@ header a {
     text-align: center;
 }
 
+/*-- footer style---*/
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding-top: 30px;
+}
+footer a{
+    font-size: 40px;
+    text-decoration: none;
+    color: #666;
+}
+footer p {
+    color: #fff;
+}
