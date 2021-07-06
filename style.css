@@ -125,14 +125,15 @@ header a {
     margin-left: 10%;
 }
 .img-text {
+    display: block;
     width: 25%;
     box-shadow: 10px 10px 40px gray;
     margin: 3%;
     border-radius: 50px;
-    padding: 24px 42px 0px 22px;
+    padding: 30px 20px 0px 20px;
 }
 .img-text img {
-    width: 400px;
+    width: 100%;
     height: 300px;
     object-fit: cover;
 }
