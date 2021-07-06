@@ -21,8 +21,6 @@ h6 {
 }
 p {
     font-size: 20px;
-    color: #666;
-    padding-bottom: 70px;
 }
 #paragraph p {
     color: #000000;
@@ -34,13 +32,16 @@ strong {
 }
 /*-- header style----*/
 header {
+    position: fixed;
     top: 0;
     right: 0;
+    left: 0;
     padding: 0 3%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    background: #ffffff;
 }
 header a {
     text-decoration: none;
@@ -80,6 +81,10 @@ header a {
     justify-content: center;
     padding: 5%;
 }
+.half-width p {
+    color: #666;
+    padding-bottom: 70px;
+}
 .link-btn {
     text-decoration: none;
     background-image: linear-gradient(to right, #fc4a1a, #f7b733);
@@ -87,6 +92,9 @@ header a {
     color: #ffffff;
     font-weight: 700;
     border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    font-size: 25px;
 }
 .link-btn:hover {
     background-image: linear-gradient(to right, #f7b733, #fc4a1a);
@@ -97,11 +105,15 @@ header a {
     background-image: url(images/shapes/Frame\ 58.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: center;
+    align-items: center;
     
 }
 
 /*--Recipes section style--*/
-
+.container{
+    padding-top: 30px;
+}
 .text-area {
     text-align: center;
     padding: 0 23%;
@@ -137,11 +149,43 @@ header a {
     text-align: center;
 }
 
+/*--- contact section ----*/
+.contact-section {
+    background: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+.contact-section h2 {
+    text-align: center;
+}
+.contact-form {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+}
+.contact-section .link-btn {
+    float: right;
+    font-size: 30px;
+}
 /*-- footer style---*/
 footer {
     background-color: #000000;
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 footer a{
     font-size: 40px;
@@ -150,4 +194,17 @@ footer a{
 }
 footer p {
     color: #fff;
+}
+.social-links {
+    margin-top: 15px;
+}
+.social-links a{
+    display: inline-flex;
+    color: #666;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.social-links a:hover {
+    color: orangered;
 }
